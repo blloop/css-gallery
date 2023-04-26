@@ -1,12 +1,12 @@
 'use client'
 
-import NavBar from './navbar'
+import NavBar from '../navbar'
 
 export default function Home() {
   return ( <>
-    <NavBar page={0}/>
+    <NavBar page={2}/>
     <div>
-      <p> This is the home page </p>
+      <p> How to use this app </p>
     </div>
   </> )
 }
