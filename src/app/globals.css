@@ -2,11 +2,18 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-size: 16px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #ffffff;
 }
 
-html,
+html {
+  background-color: #0C74B3;
+}
+
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-  color-scheme: dark;
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #0197DD;
 }
