@@ -2,16 +2,15 @@
 
 const Painting = (props: any) => {
   return (    
-    <div className='painting'>
-    <p> ID: {props.id} </p>
-    <p> Name: {props.name} </p>
-    <p> Text: </p>
-    <input 
-      onChange={(event) => {
-        props.setPaintNum(props.id, event.target.value)
-      }}
-      value={props.text}/>
-  </div>
+    <div className='painting' key={props.id}>
+      <p> Name: {props.title} </p>
+      <input 
+        onChange={(event) => {
+          props.setPaintNum(props.id, event.target.value)
+        }}
+        value={props.text}/>
+      <div dangerouslySetInnerHTML={{ __html: props.text }} />
+    </div>
   )
 }
 
