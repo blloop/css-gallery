@@ -64,6 +64,13 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.copy-button {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  color: #000000;
+}
+
 @media screen and (max-width: 1000px) {
   .add-paint, .painting {
     width: 100%;
