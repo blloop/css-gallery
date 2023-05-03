@@ -45,7 +45,7 @@
   border-radius: 12px;
   margin-bottom: 24px;
   background-color: #808080;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .painting p {
@@ -64,11 +64,29 @@
   font-family: 'Courier New', Courier, monospace;
 }
 
+.copy-row {
+  display: flex;
+  justify-content: center;
+  margin: 12px;
+}
+
+.copy-row p {
+  margin: auto 24px;
+}
+
 .copy-button {
-  display: block;
-  margin: 10px auto;
   padding: 8px;
   color: #000000;
+  cursor: pointer;
+}
+
+.check-off {
+  color: #808080;
+}
+
+.check-on {
+  font-weight: bold;
+  color: #00ff4c;
 }
 
 @media screen and (max-width: 1000px) {

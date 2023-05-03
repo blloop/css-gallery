@@ -9,8 +9,8 @@ export default function Page() {
   const [paintings, setPaintings] = useState([{
     title: 'New Painting', 
     text: 
-      '<div style="width: 300px; ' + 
-      'height: 300px; ' +
+      '<div style="width: 100px; ' + 
+      'height: 100px; ' +
       'background-color: red"></div>', 
     id: 0
   }])
