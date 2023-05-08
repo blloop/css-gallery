@@ -15,6 +15,10 @@
   text-decoration: none;
 }
 
+.title:hover {
+  color: var(--side-theme);
+}
+
 .links {
   display: flex;
   width: 30%;
@@ -29,10 +33,10 @@
 }
 
 .links a:not(.selected):hover {
-  background-color: #7ac4f2;
+  background-color: var(--side-theme)
 }
 
 .selected {
-  background-color: #7ac4f2;
+  background-color: var(--side-theme);
   pointer-events: none;
 }

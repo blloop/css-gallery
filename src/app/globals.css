@@ -1,3 +1,8 @@
+:root {
+  --main-theme: #b776c3;
+  --side-theme: #d5a5de;
+}
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -8,12 +13,13 @@
 }
 
 html {
-  background-color: #0C74B3;
+  background-color: var(--side-theme);
 }
 
 body {
   width: 1200px;
   max-width: 100%;
+  min-height: 100vh;
   margin: 0 auto;
-  background-color: #0197DD;
+  background-color: var(--main-theme);
 }
